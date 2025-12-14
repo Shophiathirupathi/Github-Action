@@ -5,6 +5,7 @@ jobs:
             runs-on : ubuntu-latest
             steps: 
               -name: first step
-               run: echo "Great job shophia"
-              -name: list file
-               run: ls
+            run: echo "learn properly"
+              
+            -name: list file
+     run: ls
