@@ -1,0 +1,10 @@
+name : firstci-cd
+on : push 
+jobs: 
+    firstjob: 
+            runs-on : ubuntu-latest
+            steps: 
+              -name: first step
+               run: echo "Great job shophia"
+              -name: list file
+               run: ls
